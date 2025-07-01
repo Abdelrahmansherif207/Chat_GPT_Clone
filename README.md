@@ -27,7 +27,16 @@ npm run dev
 cd apps/api
 npm run start:dev
 ```
+## 📚 UI Examples
+---
 
+## 📋 Chat Page
+
+This screen displays a successful request ( text / files / images ) with a successful gemini-1.5-flash-8b-001 response
+
+![List All Books](/snapshots/output.png)
+
+---
 ## Environment Variables
 
 -   Configure your OpenAI API key in the backend using environment variables.
