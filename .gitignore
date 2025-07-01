@@ -1,0 +1,83 @@
+# Global gitignore for monorepo
+# Node
+node_modules/
+dist/
+build/
+.next/
+coverage/
+.nyc_output/
+.temp/
+.tmp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/
+
+# dotenv environment variable files
+.env
+.env.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Test output
+junit.xml
+
+# Mac system files
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows system files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# pnpm
+.pnpm-debug.log
+
+# Next.js build output
+out/
